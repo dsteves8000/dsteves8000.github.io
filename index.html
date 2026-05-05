@@ -49,15 +49,13 @@
 
     <div id="container">
         <h1 id="message">HELLO, WORLD!</h1>
-        <button onclick="changeText()">CLICK ME</button>
-    </div>
+        <button onclick="goToPage2()">GO TO PAGE 2</button>
 
-    <script>
-        function changeText() {
-            const msg = document.getElementById("message");
-            msg.textContent = "YOU CLICKED THE BUTTON!";
-        }
-    </script>
+        <script>
+            function goToPage2() {
+            window.location.href = "secondpage/";
+            }
+        </script>
 
 </body>
 </html>
