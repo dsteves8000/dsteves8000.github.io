@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
 
+    <!-- Press Start 2P Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: Press Start 2P, sans-serif;
+            font-family: 'Press Start 2P', cursive;
             background-color: #111;
             color: #fff;
             display: flex;
@@ -21,9 +24,15 @@
             text-align: center;
         }
 
+        h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
         button {
-            padding: 10px 20px;
-            font-size: 16px;
+            font-family: 'Press Start 2P', cursive;
+            padding: 12px 20px;
+            font-size: 12px;
             border: none;
             border-radius: 6px;
             cursor: pointer;
@@ -39,14 +48,14 @@
 <body>
 
     <div id="container">
-        <h1 id="message">Hello, World!</h1>
-        <button onclick="changeText()">Click Me</button>
+        <h1 id="message">HELLO, WORLD!</h1>
+        <button onclick="changeText()">CLICK ME</button>
     </div>
 
     <script>
         function changeText() {
             const msg = document.getElementById("message");
-            msg.textContent = "You clicked the button!";
+            msg.textContent = "YOU CLICKED THE BUTTON!";
         }
     </script>
 
